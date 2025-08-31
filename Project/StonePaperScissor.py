@@ -3,7 +3,7 @@ import random
 options = ["stone" , "paper" , "scissors"]
 running = True
 playerName = input("Enter player name : ")
-win = 0
+wins = 0
 total = 0
 while running:
         computer = random.choice(options)
@@ -38,7 +38,7 @@ while running:
                 total+=1 
             else:
                 break   
-    
+        break
         print(f"{playerName} choice : {playerOptions}")
         print(f"Computer choice : {computer}")
         print("------------------------------------------------------")
