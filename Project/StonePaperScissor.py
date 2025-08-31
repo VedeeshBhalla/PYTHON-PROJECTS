@@ -33,7 +33,7 @@ while running:
                 print(f"{playerName} wins!!")
                 wins+=1
                 total+=1 
-            elif playerOptions == "paper" and computer == "s":
+            elif playerOptions == "paper" and computer == "scissors":
                 print("Computer wins!!")
                 total+=1 
             else:
